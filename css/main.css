@@ -1,0 +1,48 @@
+
+
+body {
+    color: brown;
+    background-color: burlywood;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.pageHeader {
+    justify-content: center;
+    display: flex;
+    font-size: 3em;
+}
+
+.list {
+    display: flex;
+    justify-content: space-between;
+    flex-flow: row wrap;
+    
+}
+
+.shop {
+    border: 1px outset;
+    background-color: goldenrod;
+    flex: 1 200px;
+}
+
+.shop:hover {
+    color: white;
+}
+
+a:link {
+    color: red;
+}
+
+
+
+footer {
+    display: flex;
+    background-color: bisque;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 2.5rem;
+    margin-left: -6px;
+}
